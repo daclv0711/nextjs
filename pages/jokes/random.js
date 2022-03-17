@@ -3,21 +3,23 @@ import { getRandomJoke } from "../../lib/joke";
 import Button from "react-bootstrap/Button";
 import Layout from "../../components/Layout";
 import Link from "next/link";
-
+import Head from "next/head";
 const Random = ({ joke }) => {
   // console.log(joke);
   return (
-    <Layout>
-      <Card className="my-3 shadow">
-        <Card.Body>
-          <Card.Title>Here's your random joke for today</Card.Title>
-          <Card.Text>{joke.value}</Card.Text>
-          <Link href="/">
-            <Button variant="dark">Back</Button>
-          </Link>
-        </Card.Body>
-      </Card>
-    </Layout>
+    <>
+      <Layout title={"jokes"} description="jokes">
+        <Card className="my-3 shadow">
+          <Card.Body>
+            <Card.Title>Here's your random joke for today</Card.Title>
+            <Card.Text>{joke.value}</Card.Text>
+            <Link href="/">
+              <Button variant="dark">Back</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </Layout>
+    </>
   );
 };
 
