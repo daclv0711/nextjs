@@ -24,7 +24,7 @@ const Layout = ({ children, title, description }) => (
           "NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì."
         }
       />
-      <meta property="og:url" content="https://next-app.now.sh/" />
+      <meta property="og:url" content="https://nextjs-daclv0711.vercel.app/" />
       <meta property="og:site_name" content="next app" />
       <meta
         property="og:image"
