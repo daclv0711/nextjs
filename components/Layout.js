@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Container from "react-bootstrap/Container";
 import NavbarMenu from "./NavbarMenu";
+import Script from "next/script";
 
 const Layout = ({ children, title, description }) => (
   <Container>
     <Head>
-      <link rel="dns-prefetch" href="https://nextjs-daclv0711.vercel.app" />
+      <link rel="dns-prefetch" href="//nextjs-daclv0711.vercel.app" />
       <meta charSet="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,10 +23,7 @@ const Layout = ({ children, title, description }) => (
         name="google-site-verification"
         content="pvynuxfTyiTfxz0Qu46PjDCERwVmN2JQ34hDmb5ZqPo"
       />
-      <script
-        async
-        src="https://www.google-analytics.com/analytics.js"
-      ></script>
+      <Script async src="https://www.google-analytics.com/analytics.js" />
       <meta name="keywords" content="next app, nexts asaasba" />
       <meta property="og:title" content={title} />
       <meta
