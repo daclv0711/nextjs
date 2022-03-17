@@ -8,7 +8,7 @@ const Layout = ({ children, title, description }) => (
       <meta charSet="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>thu title nexts test | Home</title>
+      <title>d3 - thu title nexts test | Home</title>
       <link rel="canonical" href="https://nextjs-daclv0711.vercel.app/" />
       <meta
         name="description"
@@ -16,11 +16,8 @@ const Layout = ({ children, title, description }) => (
           "NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì ..."
         }
       />
-      <meta name="author" content="next app" />
+      <meta name="author" content="a" />
       <meta name="keywords" content="next app, nexts asaasba" />
-      <meta name="robots" content="index, follow" />
-      <meta name="googlebot" content="index, follow" />
-      <meta name="google" content="notranslate" />
       <meta property="og:title" content={title} />
       <meta
         property="og:description"
