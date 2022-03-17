@@ -18,12 +18,17 @@ const Layout = ({ children, title, description }) => (
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={description || "next app"} />
+      <meta
+        property="og:description"
+        content={
+          "NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì."
+        }
+      />
       <meta property="og:url" content="https://next-app.now.sh/" />
       <meta property="og:site_name" content="next app" />
       <meta
         property="og:image"
-        content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthoc.xyz%2Fnextjs-la-gi-tai-sao-phai-su-dung-nextjs%2F&psig=AOvVaw1LJmzGvAzLDG5Zm1VlNX3f&ust=1647568309891000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCMCy57CEzPYCFQAAAAAdAAAAABAI"
+        content="https://thoc.xyz/wp-content/uploads/2021/11/1_Hva7hcsFWulFUPhrEWui1A.jpeg"
       />
     </Head>
 
