@@ -9,7 +9,12 @@ const Layout = ({ children, title, description }) => (
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>{title}</title>
-      <meta name="description" content={description || "next app"} />
+      <meta
+        name="description"
+        content={
+          "NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì."
+        }
+      />
       <meta name="author" content="next app" />
       <meta name="keywords" content="next app" />
       <meta name="robots" content="index, follow" />
@@ -25,7 +30,10 @@ const Layout = ({ children, title, description }) => (
         }
       />
       <meta property="og:url" content="https://nextjs-daclv0711.vercel.app/" />
-      <meta property="og:site_name" content="next app" />
+      <meta
+        property="og:site_name"
+        content="https://nextjs-daclv0711.vercel.app/"
+      />
       <meta
         property="og:image"
         content="https://thoc.xyz/wp-content/uploads/2021/11/1_Hva7hcsFWulFUPhrEWui1A.jpeg"
