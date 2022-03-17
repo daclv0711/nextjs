@@ -9,11 +9,12 @@ const Layout = ({ children, title, description }) => (
       <meta charSet="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>d3 - thu title nexts test | Home</title>
+      <title>{title}</title>
       <link rel="canonical" href="https://nextjs-daclv0711.vercel.app" />
       <meta
         name="description"
         content={
+          { description } +
           "NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì ..."
         }
       />
