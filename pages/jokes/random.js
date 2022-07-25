@@ -45,7 +45,6 @@ export const getStaticProps = async () => {
       joke,
     },
     revalidate: 1, // 1s => reload lai trang
-    reload: true, // reload lai trang
   };
 };
 
