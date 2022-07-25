@@ -12,7 +12,7 @@ const NavbarMenu = () => (
 			<Link href='/posts' passHref>
 				<Nav.Link>Posts</Nav.Link>
 			</Link>
-			<Link locale shallow href='/jokes/random' passHref>
+			<Link prefetch replace href='/jokes/random' passHref>
 				<Nav.Link>Jokes</Nav.Link>
 			</Link>
 			<Link href='/books' passHref>
