@@ -24,7 +24,7 @@ const Random = ({ joke }) => {
 };
 
 // Du lieu phu thuoc vao moi request, nhung ma van tao ra HTML tinh cho front-end, nen van tot cho SEO
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const joke = await getRandomJoke();
   // joke = false
 
@@ -44,6 +44,7 @@ export const getServerSideProps = async () => {
     props: {
       joke,
     },
+    revalidate: 60, // 60s => reload lai trang
   };
 };
 
