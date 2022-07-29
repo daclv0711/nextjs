@@ -45,7 +45,6 @@ export const getStaticProps = async () => {
       joke,
     },
     revalidate: 1, // 60s => reload lai trang
-    useCdn: false,
   };
 };
 
