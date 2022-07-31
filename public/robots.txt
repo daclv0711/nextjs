@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nextjs-daclv0711.vercel.app/api/my-sitemap
