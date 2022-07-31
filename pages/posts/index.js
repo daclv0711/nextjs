@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Posts = ({ posts }) => {
   return (
-    <Layout title="post" description="post">
+    <Layout title="posts" description="posts">
       {posts.map((post) => (
         <Card key={post.id} className="my-3 shadow">
           <Card.Body>

@@ -45,8 +45,7 @@ const Post = ({ post }) => {
 
 // Lay du lieu kieu tinh, nhung du lieu tinh nao thi con phu thuoc vao path params
 export const getStaticPaths = async () => {
-  const paths = await getPostIds(5);
-  console.log(paths);
+  const paths = await getPostIds(0);
 
   return {
     paths,
