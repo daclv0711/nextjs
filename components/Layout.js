@@ -16,7 +16,7 @@ const Layout = ({ children, title, description }) => (
         name="description"
         content={
           description +
-          "Chuck Norris is the only person who can actually read the invisible. Chuck Norris can read it,  Chuck Norris can see it, but Chuck Norris can't read it."
+          " NextJS là một framework được xây dựng dựa trên React. Next.Js hỗ trợ server-side rendered mà không cần phải cấu hình gì ..."
         }
       />
       <meta
