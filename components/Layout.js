@@ -23,6 +23,7 @@ const Layout = ({ children, title, description }) => (
         name="google-site-verification"
         content="pvynuxfTyiTfxz0Qu46PjDCERwVmN2JQ34hDmb5ZqPo"
       />
+      <meta name="msvalidate.01" content="5AB1A83F4E22EC64DB6344BF44CB6BF4" />
       <Script async src="https://www.google-analytics.com/analytics.js" />
       <meta name="keywords" content="next app, nexts asaasba" />
       <meta property="og:title" content={title} />
